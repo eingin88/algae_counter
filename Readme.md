@@ -34,9 +34,9 @@ c. 插件下載
 	  
 
 **Nvidia GPU的情況下，要下載Torch Cuda以啟用GPU設定**  
-如果僅有CPU，需修改程式碼呼叫CellposeModel(gpu=false)，或直接刪除後綴。**不建議使用CPU跑程式**  
-網址: https://pytorch.org/get-started/locally/  
-網址引導處會下載torch CUDA，請先檢查Nvidia內建的CUDA版本下載。(可以在命令提示字元輸入nvidia-smi檢查)  
+　　如果僅有CPU，需修改程式碼呼叫CellposeModel(gpu=false)，或直接刪除後綴。**不建議使用CPU跑程式**  
+　　網址: https://pytorch.org/get-started/locally/  
+　　網址引導處會下載torch CUDA，請先檢查Nvidia內建的CUDA版本下載。(可以在命令提示字元輸入nvidia-smi檢查)  
 
 d.影像比例校正  
 如果您使用其他影像編輯軟體處理，只需確認解析度沒有放大或縮小即可。  
