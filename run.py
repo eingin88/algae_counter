@@ -17,7 +17,7 @@ from tqdm import tqdm
 # ===============================
 # 專案路徑
 # ===============================
-BASE_DIR = Path(r"C:")  # 改成你的專案路徑
+BASE_DIR = Path(r"C:")  # 請改成你的專案路徑
 IMAGE_DIR = BASE_DIR / "data"        
 OUT_DIR = BASE_DIR / "outputs"
 OUT_OVERLAY = OUT_DIR / "overlays"

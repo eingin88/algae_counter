@@ -3,7 +3,7 @@ REM ===============================
 REM 啟動專案環境
 REM ===============================
 
-REM 切到此 bat 檔所在的資料夾
+REM 切到此bat檔所在的資料夾
 cd /d %~dp0
 
 echo.
@@ -17,11 +17,8 @@ call venv\Scripts\activate
 echo.
 echo [OK] Virtual environment activated.
 echo.
-echo You can now run:
-echo   run.py
-echo   python -m cellpose # can open cellpose GUI
 echo.
-
+run.py
 
 REM 保持視窗不關閉
 cmd

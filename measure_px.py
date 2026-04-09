@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-IMG_PATH = r"C:"  # 改成你的合成圖路徑
+IMG_PATH = r"C:"  # 請改成你的合成圖路徑
 
 pts = []
 
