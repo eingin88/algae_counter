@@ -5,6 +5,7 @@ a. 資料夾設置
 	請先建立一個資料夾，需包含以下內容  
 	資料夾格式data、outputs  
     data內部放置顯微鏡影像  
+	  
 b. 專案設置  
 	設置專案可以使安裝的插件隨資料夾刪除時一併移除  
     請在搜尋打開cmd(命令提示字元)  
@@ -13,6 +14,7 @@ b. 專案設置
 	(如果無顯示東西，請確認python 是否安裝)  
 	輸入venv\Scripts\activate  
     前面多了(venv)即為成功，資料夾會多出venv的文件夾  
+	  
 c. 插件下載  
 	請先設置一個文字文件requirements.txt，放置於同一文件夾中並輸入以下插件。  
 	numpy  
@@ -25,6 +27,7 @@ c. 插件下載
 	完成後在cmd輸入pip install -r requirements.txt  
 	如果不知道有沒有安裝pip，可以先確認版本pip –version  
 	如果沒有可以輸入，python -m ensurepip –upgrade  
+	  
 
 # Nvidia GPU的情況下，要下載Torch Cuda以啟用GPU設定。
 如果僅有CPU，需修改程式碼呼叫CellposeModel(gpu=false)，或直接刪除後綴。# 不建議使用CPU跑程式。  
