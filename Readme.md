@@ -27,21 +27,21 @@ c. 插件下載
 	如果沒有可以輸入，python -m ensurepip –upgrade  
 
 # Nvidia GPU的情況下，要下載Torch Cuda以啟用GPU設定。
-    如果僅有CPU，需修改程式碼呼叫CellposeModel(gpu=false)，或直接刪除後綴。# 不建議使用CPU跑程式。
-    網址: https://pytorch.org/get-started/locally/
-    網址引導處會下載torch CUDA，請先檢查Nvidia內建的CUDA版本下載。(可以在命令提示字元輸入nvidia-smi檢查)
+如果僅有CPU，需修改程式碼呼叫CellposeModel(gpu=false)，或直接刪除後綴。# 不建議使用CPU跑程式。  
+網址: https://pytorch.org/get-started/locally/  
+網址引導處會下載torch CUDA，請先檢查Nvidia內建的CUDA版本下載。(可以在命令提示字元輸入nvidia-smi檢查)  
 
-d.影像比例校正
-如果您使用其他影像編輯軟體處理，只需確認解析度沒有放大或縮小即可。
-    以PPT疊圖為例
-	1.請先在PPT以寬23,高10cm的畫布以四張疊圖，並檢查圖片像素。
-    2.如果圖片尺寸像素低於下圖的尺寸，請依據比例將畫布放大，反之則縮小。
-    3. 使用measure_px直接量測帶有比例尺的四張疊圖，量測到的像素與micrometer的比例即為需要設定的比例。(measure_px需要更改路徑找圖)
-e. 分析影像
-    請先以記事本打開run主程式，需要修改影像的路徑，只需一處。
-    在記事本搜尋: BASE_DIR = Path，並將後面路徑改成正確路徑
-	把要分析的影像放到 `data/images/`
-	啟動 venv 後執行：run.py
-	Cmd會顯示進度與count結果。
-	也可以到 `outputs/` 取結果與圖片報告：
+d.影像比例校正  
+如果您使用其他影像編輯軟體處理，只需確認解析度沒有放大或縮小即可。  
+    以PPT疊圖為例  
+	1.請先在PPT以寬23,高10cm的畫布以四張疊圖，並檢查圖片像素。  
+    2.如果圖片尺寸像素低於下圖的尺寸，請依據比例將畫布放大，反之則縮小。  
+    3. 使用measure_px直接量測帶有比例尺的四張疊圖，量測到的像素與micrometer的比例即為需要設定的比例。(measure_px需要更改路徑找圖)  
+e. 分析影像  
+    請先以記事本打開run主程式，需要修改影像的路徑，只需一處。  
+    在記事本搜尋: BASE_DIR = Path，並將後面路徑改成正確路徑  
+	把要分析的影像放到 `data/images/`  
+	啟動 venv 後執行：run.py  
+	Cmd會顯示進度與count結果。  
+	也可以到 `outputs/` 取結果與圖片報告：  
     
