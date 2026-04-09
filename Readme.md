@@ -7,7 +7,8 @@ a. 資料夾設置
 　　請先建立一個資料夾，需包含以下內容:  
 　　資料夾格式data、outputs、practice  
 　　data內部放置顯微鏡影像  
-　　practice放置TP_model，請到此網址下載: https://www.dropbox.com/scl/fi/1qhh638pe9ii56hkgc3sj/TP_model_V3.zip?rlkey=reyiezzu5zizxmd8a5mvdb6jq&st=hb0nbhhn&dl=0 
+　　practice放置TP_model，請到此網址下載: 
+　　https://www.dropbox.com/scl/fi/1qhh638pe9ii56hkgc3sj/TP_model_V3.zip?rlkey=reyiezzu5zizxmd8a5mvdb6jq&st=hb0nbhhn&dl=0 
 	  
 b. 專案設置  
 　　設置專案可以使安裝的插件隨資料夾刪除時一併移除  
